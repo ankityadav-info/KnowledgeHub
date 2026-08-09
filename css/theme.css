@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Caveat|Diplomata+SC|Cinzel|Fredericka+the+Great|Fredoka+One|Great+Vibes|Homemade+Apple|Josefin+Slab|Kaushan+Script|Lobster+Two|Marck+Script|Merienda|Metamorphous|Monoton|Parisienne|Playfair+Display+SC|Poiret+One|Reenie+Beanie|Sacramento|Karma|Tangerine|Asar|Amiko|Amita|Arya|Asar|Baloo|Biryani|Cambay|Dekko|Eczar|Glegoo|Halant|Hind|Inknut+Antiqua|Jaldi|Kadwa|Kalam|Karma|Khand|Khula|Kurale|Laila|Martel|Martel+Sans|Modak|Mukta|Noto+Sans|Palanquin|Palanquin+Dark|Poppins|Pragati+Narrow|Rajdhani|Ranga|Rhodium+Libre|Rozha+One|Sahitya|Sarala|Sarpanch|Sumana|Sura|Teko|Tillana|Cinzel|Vesper+Libre|Yantramanav|Yatra+One|Raleway|Petit+Formal+Script|Lato|Charm|Montserrat|Quicksand|Cinzel+Decorative|Baloo+2&display=swap');
+
+body{font-family: 'Khula', sans-serif;
+	/*font-family: 'Quicksand', sans-serif; 
+	font-family: 'Vesper Libre', serif;*/
+	font-size:20px;
+	}
+.header{
+	letter-spacing: 4px;
+	word-spacing: 9px;
+font-weight: bold;
+font-family: 'Cinzel Decorative', cursive;
+font-size:30px;
+color: #ffffff;
+background: #000;
+padding: 0px 10px 5px 10px;
+	}
+/*i{font-family: 'Charm', cursive;font-weight:normal;}*/
+.title{
+	border:2px solid #000;
+	margin-top:6px;
+	border-radius:15px;
+	font-family:'Martel', serif;font-size:25px;
+	font-weight:normel;
+	color: #fff;
+	background: #0059b3;
+	padding: 0px 0px 0px 0px;
+	}
+:lang(en) {font-family: 'Quicksand', sans-serif;}
+:lang(hi) {font-family: 'Khula', sans-serif;}
+h2{/*text-transform: capitalize;*/font-weight: normal;color: red;}
+h2::before {content: ' \273A';}
+h3 { color: red;font-weight:normal;}
+h3::before {font-weight: bolder;content: "\2727	  ";}
+
+strong {
+    font-weight: inherit;
+    color: red;
+}
+div.tag:before {background-image: url(https://1.bp.blogspot.com/-JO9v9mEQVD8/XYpDIDWo-cI/AAAAAAAACAU/PDPNmV1J2J0XxlzyT8r_no3JQgWuc8YlQCNcBGAsYHQ/s1600/tag.png);background-size: 20px 20px;background-repeat: no-repeat;display: inline-block;width: 20px;height: 20px;padding-left:5px;content: "";}
+ p.tag:before {background-image: url(https://1.bp.blogspot.com/-JO9v9mEQVD8/XYpDIDWo-cI/AAAAAAAACAU/PDPNmV1J2J0XxlzyT8r_no3JQgWuc8YlQCNcBGAsYHQ/s1600/tag.png);background-size: 25px 25px;background-repeat: no-repeat;display: inline-block;width: 25px;height: 25px;padding-left:5px;content: "";}
+
+
+div.star:before {background-image: url(https://1.bp.blogspot.com/-AFm1Z7oQuFA/XLSv81EXLiI/AAAAAAAABBM/8KLQxCL3vdIBcIAJM5CuDHgz_qRwuZBQACLcBGAs/s1600/STAR.png);background-size: 20px 20px;background-repeat: no-repeat;display: inline-block;width: 20px;height: 20px;padding-left:5px;content: "";}
+
+p.star:before {background-image: url(https://1.bp.blogspot.com/-AFm1Z7oQuFA/XLSv81EXLiI/AAAAAAAABBM/8KLQxCL3vdIBcIAJM5CuDHgz_qRwuZBQACLcBGAs/s1600/STAR.png);background-size: 20px 20px;background-repeat: no-repeat;display: inline-block;width: 20px;height: 20px;padding-left:5px;content: "";}
+h3.star {
+    color: #d60ba9;
+}
+h3.star:before {
+    background-image: url(https://1.bp.blogspot.com/-AFm1Z7oQuFA/XLSv81EXLiI/AAAAAAAABBM/8KLQxCL3vdIBcIAJM5CuDHgz_qRwuZBQACLcBGAs/s1600/STAR.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+    content: "";
+}
+kbd {
+    padding: .2rem .4rem;
+    font-size: 87.5%;
+    color: #fff;
+    background-color: #212529;
+    border-radius: .2rem;
+}
+span.st {color: #ff1400;}
+.st:after {
+    content: "";
+    display: block;
+    width: 45%;
+    margin-top: -7px;
+    padding-top: 4px;
+    border-bottom: 1px solid #ffa31a;
+    transition: .5s;}
+.head {font-family: 'Kalam', cursive;font-family: 'Baloo 2', cursive; 
+font-size: 45px;}
+
+/*-----------------------------COLORS---------------------*/
+span.vio {color: #b300b3;}
+.green{color:#009933;}
+.black{color:#000;}
+.red{color:red;}
+.sky{color:#6666ff}
+
+/*-----------------------------FOOTER---------------------*/
+.footer {
+    margin-top: 5px;
+    font-size: 25px;
+    color: #ffffff;
+    background: #000;
+    padding: 4px 1px 8px 1px;
+}
+div.flink {
+    margin-bottom: -5px;
+    padding: 2px;
+    display: inline-block;
+    /*font-family: 'Quicksand', sans-serif;
+    margin-right: 37px;*/
+    color: black;
+}
+p#disclaimer {color: black;text-align: left;font-size: 15px;}
+tr.rb {border: none;height: 3px;background: #000;}
+td.cg {background: #34a853;}
+td.cy {background: #fbbc05;}
+td.cr {background: #ea4335;}
+td.cb {background: #4285f4;}
+td.rbb{border: none;width:1205px}
+
+a.white{
+	text-decoration: none;
+    font-size: 31px;
+   /* background: linear-gradient(to right,#4285f4,#ea4335,#fbbc05,#34a853);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+	border-bottom: 1px solid #da1b60!important;*/ 
+    padding-bottom: .15rem;
+    color: #fff;}
+
+hr {
+    border: solid 0.5px hotpink;
+}
+td, th, tr {color:inherit;
+  /* border: 1px solid black;
+    padding: 7px;*/
+}
+a.linksfoot {
+	font-family: 'Khula', sans-serif;
+	margin-right: 5px;
+	/*width:435px;*/
+	margin-bottom:5px;
+    display: inline-block;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #b30000;
+    border: none;
+    border-radius: 15px;
+}
+.links {
+	margin-bottom: -8px;
+    margin-top: 15px;
+    display: block;
+}
+p#bottamtext {
+    margin-block-end: 4px;
+    color: #fff;
+    line-height: 0;
+    margin-block-start: 15px;
+}
+
+
+
+/* ---------------------Order Number For dt START -------------------------- */
+body {
+  counter-reset: section;
+}
+
+p.question::before {
+color: red;
+  counter-increment: section;
+  content: "Q. " counter(section) ". ";
+}
+
+/* ---------------------Order Number For dt End -------------------------- */
+/*	
+dl{font-size:20px;}
+dl{list-style-type: none;color:#000;font-size:20px;margin: 0;
+    padding: 0;border-bottom:solid 1px #ffa31a;}
+dd{list-style-type: none;color:#000;font-size:20px;margin: 0;
+    padding: 0;}
+dd::before { 
+    content: "★	  ";color: red;
+}
+*/	
+/* ---------------------Notes -------------------------- */
+
+span.answer {color:#049022;
+    display: block;
+}
+span.answer::before {
+	color: #000;
+    font-size: 120%;
+    content: ' \27A5';
+}
+p.question {
+    color: black;
+}
+dd#correctanswer {color: green;}
+dd#correctanswer:after {content: ' \2714';}
+
+
+p.option:before {content: '\274D  ';font-size:115%;}
+p#correctanswer {color: green;}
+p.option {margin-inline-start: 40px;color: red;line-height: 0.4;}
+p#correctanswer:after {content: ' \2714';}
+
+/* ---------------------Maths & Chemistry Formula-------------------------- */
+
+
+/*Chemistry Reaction With Example START*/
+/*<div class="equation">2 NaOH + Zn → <span class="uptext">Na<sub>2</sub>ZnO<sub>2</sub><span class="downtext">सोडियम जिंकेट</span></span> + H<sub>2</sub></div>*/
+table.linetable {
+    vertical-align: text-top;
+    line-height: 0.8;
+    display: inline;
+}
+p.inline {
+    display: inline;
+}
+
+.equation {
+font-family: 'Quicksand', sans-serif;
+}
+.uptext{
+	position: relative;
+    text-align: center;}
+.downtext{
+ /*font-family: 'Vesper Libre';*/
+ position: absolute;
+    bottom: -1em;
+    left: 0px;
+    width: 100%;
+    font-size: 70%;
+    text-align: center;}
+span.uppertext {
+ /*font-family: 'Vesper Libre';*/
+    position: absolute;
+    top: -1em;
+    left: 0px;
+    width: 100%;
+    font-size: 70%;
+    text-align: center;
+}
+
+
+tr.fr {
+    font-family: 'Vesper Libre', serif;
+    font-size: 70%;
+}
+span.alup{
+	/*font-family: 'Vesper Libre', serif;*/
+	position: absolute;
+    top: -0.3em;
+    left: 0px;
+    width: 100%;
+    font-size: 70%;
+    text-align: center;}
+span.aldw{
+	/*font-family: 'Vesper Libre', serif;*/
+	position: absolute;
+    bottom: -1.2em;
+    left: 0px;
+    width: 100%;
+    font-size: 70%;
+    text-align: center;}
+/*Chemistry Reaction With Example END*/
+
+span.mid {
+    padding-left: 25%;
+}
+.formula {}
+.brc{font-size:50px;padding-top:10px;vertical-align: -13px;}
+.fraction span.brc{font-size:50px;padding-top:10px;vertical-align: -13px;}
+.brcpower{padding-top:10px;vertical-align: 13px;}
+.fraction {
+    display: inline-block;
+    vertical-align: middle; 
+    margin: 0 0.2em 0.4ex;
+    text-align: center;
+}
+.fraction > span {
+    display: block;
+    padding-top: 0.15em;
+}
+.fraction span.fdn {border-top: thin solid ;}
+.fraction span.bar {display: none;}
+
+
+.radical {
+    position: relative;
+    font-size: 1.6em;
+    vertical-align: middle;
+}
+.n-root {
+    position: absolute;
+    top: -0.333em;
+    left: 0.333em;
+    font-size: 45%;
+}
+.radicand { 
+    padding: 0.16em 0.25em;
+    border-top: 1px solid ;
+}
+
+.right{float:right}
+p.kh3{color:#000;}
+
+/* ---------------------TABLE-------------------------- */
+table {border-collapse: collapse;}
+ #table tr:nth-child(even){background-color: #e6f9ff	;}
+th{color:#ff0000;/*background:#e0ebeb*/}
+
+
+/* ---------------------THEME ADDED BY ANKIT YADAV-------------------------- 
+ul{list-style-type: none;font-size:20px;margin: 0;
+    padding: 0;border-bottom:solid 1px #ffa31a;}
+li{list-style-type: none;font-size:20px;margin: 0;
+    padding: 0;border-bottom:solid 1px #ffa31a;content}
+li::before { 
+    content: "❍  ";color: red;
+}	*/
+
+.kno{font-family:'Cinzel', serif;
+font-size:30px;
+color: #ffffff;
+background: #000;
+padding: 0px 10px 5px 10px;}
+
+a{color: inherit;text-decoration: none;}
+img.floatright{float:right;padding:0 0 0 0}
+/* ----------------------------------- */
+
+a.downloadpdf{
+    background: #008CBA;
+    padding: 1px 28px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 0;
+    width: 240px;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	background-color: #004d99;
+	border-radius: 15px;
+}
+a.downloadpdf:hover{
+	color: #fff;
+	background:#004080;
+	background-image:url("https://2.bp.blogspot.com/-xXhyW3Wwblg/XDGqoljgY4I/AAAAAAAAAew/zXrmAyjaCnY6xLReTHKKg0GEhX8nP7EXwCLcBGAs/s320/Download%2Barrow.png");
+	background-repeat:no-repeat;
+	background-origin:content-box;
+	background-position:100% 60%;
+	box-shadow:0 12px 16px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19)}
+
+.appname {font-size: 25px;font-weight: 500;}
+.applable {font-size: 19px;color:grey;font-weight: 500;}
+p.position_fixed {position: fixed;top: 30px;right: 5px;color: red;}
+img.float {float: left;margin-right: 10px;}
+div.rating {border:2px solid black;width:26px;height:20px;margin-left:75px;font-weight:1000;}
+div.appdel {border-bottom:2px solid #f0f5f5;margin-bottom:5px;}
+.appinstall {background-color: #4CAF50;color:white;text-align: center;display:inline-block;margin:4px 2px;curser:pointer;}
+.buttonapp {font-weight: 1000;border-radius: 50%;display: inline-block;padding: 5px 15px;font-size: 18px;cursor: pointer;text-decoration: none;outline: none;color: #fff;background-color: #004d99;border: none;border-radius: 5px;}
+right {text-align:right;}
+div.rightdown {margin-right:10px;text-align:right;}
+div.detail {background-color:#b3e6ff;color:#005580;font-size:17px;padding: 0px 2px 0px 2px;}
+.badge {height: 70px;width: 70px;display: table-cell;text-align: center;vertical-align: middle;border-radius: 50%;background: #004d99;color:white;font-size:20px;}
+.inline {display: inline-block;}
+.filename {font-size: 25px;font-weight: 500;}
+.filelable {display: inline-block;font-size: 15px;color:green;font-weight: 500;}
+.listfiles {color: #000;background: #ffffff;padding: 10px 5px;text-decoration: none;font-size: 16px;display: block;margin: 0px 0px;border-bottom: 1px solid #ffb366;height: 145px;}
+.listfiles:hover {font-weight: normal;background: #eee;}
+p.position_fixed {position: fixed;top: 30px;right: 5px;color: red;}
+img.float {float: left;margin-right: 10px;}
+.next {display: inline-block;padding: 15px 25px;font-size: 24px;cursor: pointer;text-align: center;text-decoration: none;outline: none;color: #fff;background-color: #47aed8;border: none;border-radius: 15px;}
+.next:hover {background-color: #003366}
+.button1 {border-radius: 50%;display: inline-block;padding: 5px 15px;font-size: 15px;cursor: pointer;text-align: center;text-decoration: none;outline: none;color: #fff;background-color: #004d99;border: none;border-radius: 15px;}
+.mobile .blogger-iframe-colorize{display: block !important;}
+.blogger-iframe-colorize{display: block !important;}
+.w3-top, .w {position:fixed;width:100%;z-index:1}
+.w3-top {top:0}
+.w3-top, .w {position:fixed;width:100%;z-index:1}
+.w3-top {top:0}
+.w3-button {border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;font-size:15px;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-bar-item {float:left;width:auto;border:none;display:block;outline:0;}
+.w3-bar. {position:static;float:left}
+.w3-bar:before, .w3-bar:after {content:"";display:table;clear:both}{.w3-modal-content {margin:0 10px;width:auto!important}.w3-modal {padding-top:30px}.w3-button, .w3-button {width:100%}}
+.w3-button:hover {color:#000!important;background-color:#ccc!important}
+.w3-black, .w3-hover-black:hover {color:#fff!important;background-color:#000000!important}
+div.kh2 {
+    color: #000;
+    border-bottom: solid 1px #ffa31a;
+}
+
+
+a.button {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #004d99;
+    border: none;
+    border-radius: 15px;
+}
+/* ---------------------THEME ADDED BY ANKIT YADAV-------------------------- */
+/*
+div#top::before { 
+    content: "Knowledge Hub";
+}*/
+
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 22px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-telegram {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #e66b6b;
+  color: white;
+}
+.fa-link {
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-file {
+  background: #ff6600;
+  color: white;
+}
+.fa-whatsapp{
+	background: #25D366;
+	color: white;
+}
+
+.dl{    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin: 15px;
+    border-radius: 30px;
+    font-size: 25px;
+    background: #ff1e50;
+    display: block;
+    color: #fff;}
+a.homelink {
+font-family: 'Quicksand', sans-serif;
+text-align: center;
+margin:15px;
+text-decoration:none;
+border-radius: 30px;
+font-size: 25px;   
+background: #232882;
+    display: block;
+    color: #fff;}
+ul.morepdf {
+    line-height: 2;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    color: blue;
+    text-decoration: underline;
+    border: 1px solid;
+    border-radius: 12px;
+}
+
+a.telegram{background-color: #008cba;font-size: 25px;}
+/* ***************CSS Column Selectors***********
+
+td:nth-child(2){Color:red;}
+td:nth-child(1):after{content: "-";}
+
+
+***********************Counters***************
+body {
+  counter-reset: section;
+}
+
+h2::before {
+  counter-increment: section;
+  content: "Section " counter(section) ": ";
+}
+*/
